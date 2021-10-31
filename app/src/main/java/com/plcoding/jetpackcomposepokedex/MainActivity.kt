@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
                             }
                         )
 
-                        ) {
+                    ) {
                         val dominantColor = remember {
                             val color = it.arguments?.getInt("dominantColor")
                             color?.let { Color(it) } ?: Color.White
